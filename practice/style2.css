@@ -1,0 +1,18 @@
+ol
+{
+    background-color:rgb(141, 55, 222);
+}
+ol li 
+{
+    background-color:rgb(192, 28, 28);
+    margin: 10px;
+}
+
+h1
+{
+    background-color:rgb(28, 192, 28);
+    margin: 12px;
+    padding: 50px;
+    height: 20px;
+    box-sizing: border-box;
+}
