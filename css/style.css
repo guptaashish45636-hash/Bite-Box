@@ -21,6 +21,7 @@ nav div
 
 }
 
+
 ul
 {
     display: flex;
@@ -54,4 +55,94 @@ nav h2
 .active 
 {
     text-decoration: underline red;
+}
+
+.hero
+{
+    background-color: red;
+    height: 90vh;
+    background: url('../images/Banner.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero button 
+{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.hero button:hover
+{
+    background-color: darkred;
+
+}
+
+.video-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+}
+
+.video-text
+{
+    flex: 1;
+}
+
+.video-box
+{
+    flex: 1;
+}
+
+.video-section video
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-text h2
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.video-text p
+{
+    font-size: 18px;
+    color:brown
+}
+
+.about
+{
+    text-align: center;
+    background-color: aqua;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.about p
+{
+    max-width: 700px;
+    background-color: aqua;
+    line-height: 1.6;
+    margin: auto;
+    color:aquamarine;
+    font-size: 20px;
 }
