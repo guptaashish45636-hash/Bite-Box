@@ -143,6 +143,86 @@ nav h2
     background-color: aqua;
     line-height: 1.6;
     margin: auto;
-    color:aquamarine;
+    color:rgb(255, 127, 127);
     font-size: 20px;
 }
+
+.card
+{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 0 gray; 
+    border-radius: 10px;
+}
+
+.menu-container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.card img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card button
+{
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.icon-box
+{
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.icon-box img{
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.category-icons
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    border: 2px solid green;
+}
+
+.icon-box p
+{
+    margin-top: 8px;
+    font-size: 16px;
+    color: red;
+}
+
+.icon-box img:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+header
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
