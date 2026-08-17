@@ -225,4 +225,102 @@ header
     z-index: 100;
 }
 
+table
+{
+    width: 70%;
+    border-collapse: collapse;
+    background-color: red;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
 
+}
+
+thead
+{
+    background-color: orange;
+    color: white;
+
+}
+
+th, td
+{
+    text-align: center;
+    padding: 15px;
+}
+
+tbody tr
+{
+    border-bottom: 1px solid blue;
+
+}
+
+.item
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.item img
+{
+    width: 70px;
+    height: 70px;
+    border-radius:15px;
+}
+
+.remove
+{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.remove:hover
+{
+    background-color: rgb(180, 118, 118);
+}
+
+.Grand-total td
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Grand-total button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qty-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qty-box button{
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-color: rgb(208, 196, 196);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.qty-box span
+{
+    font-weight: bold;
+    min-width: 20px;
+}
